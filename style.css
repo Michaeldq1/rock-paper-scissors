@@ -1,0 +1,119 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: #F5E4FA;
+    display: flex;
+    flex-direction: column;
+}
+
+#modal-container {
+    position: absolute;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-contents {
+    height: 25%;
+    width: 30%;
+    background-color: #F5E4FA;
+    border-radius: 4px;
+    border: 6px solid #5bccf6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 28px;
+}
+
+.modal-contents button {
+    width: 180px;
+    height: 42px;
+    cursor: pointer;
+    border: 2px solid #030e12;
+    border-radius: 4px;
+}
+
+.header {
+    flex: 0.5;
+    margin-top: 25px;
+    text-align: center;
+    font-size: 65px;
+    font-weight: 900;
+    color: #030e12;
+}
+
+.best-of-five {
+    text-align: center;
+    font-size: 24px;
+}
+
+.scores {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #030e12;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    padding: 25px;
+    padding: 0 100px;
+}
+
+#player, #computer {
+    flex: 1;
+}
+
+.player-score, .player-choice img, .computer-score, .computer-choice img {
+    transition: all 0.3s;
+}
+
+.icons {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: #5bccf6;
+}
+
+.icons img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 4px solid #030e12;
+    cursor: pointer;
+}
+
+.match-result {
+    flex: 3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.match-result img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.match-result-text {
+    font-size: 24px;
+}
+
+.blue-highlight {
+    color: #5bccf6;
+    transform: scale(1.3);
+}
