@@ -148,8 +148,8 @@ function resetBoard() {
         computerScore = 0;
         computer.textContent = computerScore;
         ties = 0;
-        playerSelectionImg.src = 'photos/bubbles.png';
-        computerSelectionImg.src = 'photos/bubbles.png';
+        playerSelectionImg.src = 'photos/bubbles2.png';
+        computerSelectionImg.src = 'photos/bubbles2.png';
         matchResults.textContent = '';
     })       
 }
