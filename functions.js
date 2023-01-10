@@ -88,35 +88,35 @@ function removeTransition(event) {
 function populateSelectionImg (playerSelection, computerSelection) {
     if (playerSelection === 'Rock') {
         playerSelectionImg.src = 
-        '../Rock-Paper-Scissors/photos/rock-nobackground.png';
+        '../rock-paper-scissors/photos/rock-nobackground.png';
         playerSelectionImg.classList.add('blue-highlight');
         playerSelectionImg.addEventListener('transitionend', removeTransition);
     } else if (playerSelection === 'Paper') {
         playerSelectionImg.src = 
-        '../Rock-Paper-Scissors/photos/paper-nobackground.png';
+        '../rock-paper-scissors/photos/paper-nobackground.png';
         playerSelectionImg.classList.add('blue-highlight');
         playerSelectionImg.addEventListener('transitionend', removeTransition);
     } else if (playerSelection === 'Scissors') {
         playerSelectionImg.src = 
-        '../Rock-Paper-Scissors/photos/scissors-nobackground.png';
+        '../rock-paper-scissors/photos/scissors-nobackground.png';
         playerSelectionImg.classList.add('blue-highlight');
         playerSelectionImg.addEventListener('transitionend', removeTransition);
     }
 
     if (computerSelection === 'Rock') {
         computerSelectionImg.src = 
-        '../Rock-Paper-Scissors/photos/rock-nobackground.png';
+        '../rock-paper-scissors/photos/rock-nobackground.png';
         computerSelectionImg.classList.add('blue-highlight');
         computerSelectionImg.addEventListener('transitionend', removeTransition);
     } else if (computerSelection === 
         'Paper') {
         computerSelectionImg.src = 
-        '../Rock-Paper-Scissors/photos/paper-nobackground.png';
+        '../rock-paper-scissors/photos/paper-nobackground.png';
         computerSelectionImg.classList.add('blue-highlight');
         computerSelectionImg.addEventListener('transitionend', removeTransition);
     } else if (computerSelection === 'Scissors') {
         computerSelectionImg.src = 
-        '../Rock-Paper-Scissors/photos/scissors-nobackground.png';
+        '../rock-paper-scissors/photos/scissors-nobackground.png';
         computerSelectionImg.classList.add('blue-highlight');
         computerSelectionImg.addEventListener('transitionend', removeTransition);
     }
