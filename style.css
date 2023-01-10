@@ -117,3 +117,8 @@ body {
     color: #5bccf6;
     transform: scale(1.3);
 }
+
+.choice:hover {
+    border: 4px solid pink;
+    box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
+}
