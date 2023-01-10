@@ -88,35 +88,35 @@ function removeTransition(event) {
 function populateSelectionImg (playerSelection, computerSelection) {
     if (playerSelection === 'Rock') {
         playerSelectionImg.src = 
-        '../rock-paper-scissors/photos/rock-nobackground.png';
+        'photos/rock-nobackground.png';
         playerSelectionImg.classList.add('blue-highlight');
         playerSelectionImg.addEventListener('transitionend', removeTransition);
     } else if (playerSelection === 'Paper') {
         playerSelectionImg.src = 
-        '../rock-paper-scissors/photos/paper-nobackground.png';
+        'photos/paper-nobackground.png';
         playerSelectionImg.classList.add('blue-highlight');
         playerSelectionImg.addEventListener('transitionend', removeTransition);
     } else if (playerSelection === 'Scissors') {
         playerSelectionImg.src = 
-        '../rock-paper-scissors/photos/scissors-nobackground.png';
+        'photos/scissors-nobackground.png';
         playerSelectionImg.classList.add('blue-highlight');
         playerSelectionImg.addEventListener('transitionend', removeTransition);
     }
 
     if (computerSelection === 'Rock') {
         computerSelectionImg.src = 
-        '../rock-paper-scissors/photos/rock-nobackground.png';
+        'photos/rock-nobackground.png';
         computerSelectionImg.classList.add('blue-highlight');
         computerSelectionImg.addEventListener('transitionend', removeTransition);
     } else if (computerSelection === 
         'Paper') {
         computerSelectionImg.src = 
-        '../rock-paper-scissors/photos/paper-nobackground.png';
+        'photos/paper-nobackground.png';
         computerSelectionImg.classList.add('blue-highlight');
         computerSelectionImg.addEventListener('transitionend', removeTransition);
     } else if (computerSelection === 'Scissors') {
         computerSelectionImg.src = 
-        '../rock-paper-scissors/photos/scissors-nobackground.png';
+        'photos/scissors-nobackground.png';
         computerSelectionImg.classList.add('blue-highlight');
         computerSelectionImg.addEventListener('transitionend', removeTransition);
     }
@@ -148,8 +148,8 @@ function resetBoard() {
         computerScore = 0;
         computer.textContent = computerScore;
         ties = 0;
-        playerSelectionImg.src = '../Rock-Paper-Scissors/photos/bubbles.png';
-        computerSelectionImg.src = '../Rock-Paper-Scissors/photos/bubbles.png';
+        playerSelectionImg.src = 'photos/bubbles.png';
+        computerSelectionImg.src = 'photos/bubbles.png';
         matchResults.textContent = '';
     })       
 }
